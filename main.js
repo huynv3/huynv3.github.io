@@ -1,7 +1,7 @@
 const socket=io("https://webrtcdemo2505.herokuapp.com")
 function openStream(){
     const config={
-        audio:false,
+        audio:true,
         video:true
     }
 
